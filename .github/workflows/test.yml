@@ -2,8 +2,8 @@ name: Testing
 run-name: Testing ${{ github.ref_name }}
 
 on:
-schedule:
-  - cron: "*/10 * * * *"
+  schedule:
+    - cron: "*/10 * * * *"
   workflow_dispatch:
     inputs:
       manual:
