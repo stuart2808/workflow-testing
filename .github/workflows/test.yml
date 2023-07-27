@@ -18,4 +18,4 @@ jobs:
       - name: Print some text
         env:
           DEFAULT: 'This is the cron text'
-        run: echo ${{ inputs.manual|| env.DEFAULT }}
+        run: echo ${{ inputs.manual || env.DEFAULT }}
