@@ -8,12 +8,11 @@ on:
     inputs:
       manual:
         description: Option one
-        type: boolean
         default: 'This is the manual text'
 
 jobs:
-  output_text:
-  runs-on: 'ubuntu-20.04'
+  output-text:
+    runs-on: 'ubuntu-20.04'
     steps:
       - name: Print some text
         env:
